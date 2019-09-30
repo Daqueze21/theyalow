@@ -210,3 +210,82 @@ h1 {
    background-color: rgba(245, 197, 6, 1);
    border-radius: 5px 0 0 5px;
 }
+
+/* main >icons-area */
+.icons-area {
+   background-image: url("../assets/images/icons-area-bg.png");
+   display: flex;
+   align-items: stretch;
+   -webkit-box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.3);
+}
+.icons_area>.inner_wrapper {
+   display: flex;  
+}
+
+.icons-area ul {
+   display: flex;
+   align-items: stretch;
+   height: 212px;
+   flex-grow: 1;  
+}
+
+.icons-area ul li {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 339px; 
+   border-left: solid;
+   border-left-width: 1px;
+   border-left-color: #d4d4d4;
+}
+
+.icons-area ul li:last-child {
+   border-right: solid;
+   border-right-width: 1px;
+   border-right-color: #d4d4d4;
+}
+
+.icons-area ul li a {
+   font-family: "Segoe UI Light";
+   text-decoration: none;
+   font-size: 27px;
+   color: #000000;
+   letter-spacing: 0.27px;
+   font-weight: 300;
+}
+
+.icons-area li:nth-child(1)>object {
+   margin-top: 60px;
+   margin-bottom: 14px;
+   margin-left: -8px;
+}
+
+.icons-area li:nth-child(1)>a {
+   margin-left: 17px;
+}
+
+.icons-area li:nth-child(2)>object {
+   margin-top: 36px;
+   margin-bottom: 18px;
+   margin-left: 21px;
+}
+
+.icons-area li:nth-child(2)>a {
+   margin-left: 17px;
+}
+
+.icons-area li:nth-child(3)>object {
+   margin-top: 53px;
+   margin-bottom: 13px;
+   margin-left: -22px;
+}
+
+.icons-area li:nth-child(3)>a {
+   margin-left: -16px;
+}
+
+.icons-area .icon:hover {
+   -webkit-filter: drop-shadow(0 6px 1px rgba(0, 0, 0, 0.5));
+   filter: drop-shadow(0 6px 1px rgba(0, 0, 0, 0.5));
+}
