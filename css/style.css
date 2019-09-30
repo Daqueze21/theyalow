@@ -1,0 +1,108 @@
+.wrapper {
+   height: 100vh;
+   width: 100vw;
+   margin: 0 auto;
+}
+
+.inner_wrapper {
+   width: 1020px;
+   margin: 0 auto;
+}
+
+/* header */
+header {
+   background-image: url('../assets/images/header-bg.png');
+   background-size: cover;
+}
+
+.header_banner>.header_title,
+#navbar {
+   display: flex;
+   align-items: flex-end;
+}
+
+.header_banner {
+   display: flex;
+   justify-content: space-between;
+   height: 112px;
+}
+
+/* header >title */
+#logo object[data$="bottom.svg"] {
+   padding-left: 2px;
+   padding-top: 2px;
+   position: absolute;
+}
+
+#logo object[data$="top.svg"] {
+   margin-bottom: -3px;
+}
+
+h1 {
+   font-family: "Lucida Sans Italic";
+   font-size: 41px;
+   letter-spacing: 0.41px;
+   text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.42);
+   text-align: center;
+   color: #ffffff;
+   margin-bottom: 17px;
+   margin-left: 4px;
+}
+
+/* header >navbar */
+.rectangle {
+   width: 453px;
+   height: 41px;
+   background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+   background-image: -webkit-linear-gradient(bottom, #f5c505 0%, #f5c505 100%);
+   background-image: -o-linear-gradient(bottom, #f5c505 0%, #f5c505 100%);
+   background-image: linear-gradient(to top, #f5c505 0%, #f5c505 100%);
+}
+
+.rectangle1 ul {
+   display: flex;
+   flex-grow: 1;
+}
+
+.rectangle1 ul li {
+   display: flex;
+   flex-grow: 1;
+   border-right: 1px solid #9b7d08;
+   justify-content: center;
+}
+
+.rectangle1 ul li a {
+   display: flex;
+   align-items: center;
+   font-family: "Segoe WP";
+   height: 41px;
+   font-size: 17px;
+   letter-spacing: 0.17px;
+   color: #9b7d08;
+   text-decoration: none;
+}
+
+.rectangle1 ul li a::after {
+   border-right: none;
+}
+
+.rectangle1 object {
+   margin-right: 9px;
+}
+
+.rectangle2 {
+   position: absolute;
+   opacity: 0.27;
+   z-index: 2;
+   margin-top: -5px;
+   margin-left: -4px;
+}
+
+.rectangle3 {
+   position: absolute;
+   opacity: 0.27;
+   z-index: 1;
+   margin-top: -8px;
+   margin-left: -8px;
+}
+
