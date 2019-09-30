@@ -106,3 +106,107 @@ h1 {
    margin-left: -8px;
 }
 
+/* main */
+/* main >video-banner */
+.nav-buttons {
+   position: absolute;
+   display: flex;
+   width: 100vw;
+   margin-top: 187px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-buttons img {
+   align-content: center;
+}
+
+.main-video-banner{
+   height: 454px;
+   background-image: url('../assets/images/header-bg.png');
+   background-size: cover;
+   background-position: 0 -112px;
+}
+
+.banner {
+   display: flex;
+   align-content: stretch;
+}
+
+.banner .video {
+   position: relative;
+   flex-grow: 1;
+}
+
+.banner video {
+   width: 549px;
+   margin-left: 10px;
+   margin-top: 56px;
+}
+
+.banner label {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+}
+
+.banner label h2 {
+   font-family: "Asap Regular";
+   font-size: 63px;
+   letter-spacing: 0.63px;
+   font-weight: 400;
+   text-align: center;
+}
+
+.banner label h2:first-child {
+   color: #f5c506;
+   margin-top: 138px;
+   margin-left: -13px;
+}
+
+.banner label h2:last-child {
+   color: #fff;
+   margin-top: 12px;
+   margin-left: 2px;
+}
+
+.video-controls .play-btn-big {
+   position: absolute;
+   top: 186px;
+   left: 254px;
+}
+
+.video-controls .video-footer {
+   position: absolute;
+   bottom: 23px;
+   left: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   width: 549px;
+}
+
+.video-footer .play-btn-small {
+   margin-left: 29px;
+}
+
+.video-footer .btn-sound {
+   margin-left: 31px;
+}
+
+.video-footer .progress {
+   position: relative;
+   width: 404px;
+   height: 12px;
+   margin-left: 24px;
+   background-color: rgba(245, 197, 6, 0.3);
+   border-radius: 5px;
+}
+
+.video-footer .progress span {
+   float: left;
+   width: 45%;
+   height: 12px;
+   background-color: rgba(245, 197, 6, 1);
+   border-radius: 5px 0 0 5px;
+}
