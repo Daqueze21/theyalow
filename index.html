@@ -27,39 +27,28 @@
                </div>
                <!-- /.header-title -->
 
-               <div id="navbar">
-                  <div class="rectangle rectangle1">
-                     <ul>
-
-                        <li>
-                           <a href="#">
-                              <object data="assets/icons/header-navbar-icon1.svg" type="image/svg+xml" width="21"
-                                 height="19"></object>
-                              ABOUT US
-                           </a>
-                        </li>
-
-                        <li>
-                           <a href="#">
-                              <object data="assets/icons/header-navbar-icon2.svg" type="image/svg+xml" width="19"
-                                 height="19"></object>
-                              SERVICES
-                           </a>
-                        </li>
-
-                        <li>
-                           <a href="#">
-                              <object data="assets/icons/header-navbar-icon3.svg" type="image/svg+xml" width="24"
-                                 height="18"></object>
-                              CONTACT</a>
-                        </li>
-
-                     </ul>
-                  </div>
-                  <div class="rectangle rectangle2"></div>
-                  <div class="rectangle rectangle3"></div>
-               </div> 
-               <!-- /.navbar -->
+               <nav>
+                  <ul class="list">
+                     <li class="list-item">
+                        <a href="#">
+                           <img src="assets/icons/header-navbar-icon1.svg" alt="about-us">
+                           <p>about us</p>
+                        </a>
+                     </li>
+                     <li class="list-item">
+                        <a href="#services">
+                           <img src="assets/icons/header-navbar-icon2.svg" alt="services">
+                           <p>services</p>
+                        </a>
+                     </li>
+                     <li class="list-item">
+                        <a href="#contact">
+                           <img src="assets/icons/header-navbar-icon3.svg" alt="contact">
+                           <p>contact</p>
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
 
             </div>
             <!-- /.header_banner -->
@@ -76,7 +65,7 @@
             <div class="inner_wrapper">
                <div class="banner">
                   <div class="video">
-                     <video id="poster" poster="assets/images/banner-video-img.png"></video>
+                     <video id="poster" width="100%" height="100%" poster="assets/images/banner-video-img.png"></video>
                      <div class="video-controls">
                         <img class="play-btn-big" src="assets/images/video-play-btn-big.png" width="67" height="67"
                            alt="play-btn-big">
@@ -131,7 +120,49 @@
             <!-- /inner_wrapper -->
          </section>
          <!-- /icons-area -->
-         
+
+         <section class="lorem" id="services">
+            <div class="inner_wrapper">
+
+               <div class="title">
+                  LOREM IPSUM DOLOR SIT AMET
+               </div>
+
+               <div class="blocks-bar">
+                  <div class="block1">
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inci- didunt ut
+                     </p>
+                     <object data="assets/icons/lorem-plus-icon.svg" type="image/svg+xml" width="12"
+                        height="12"></object>
+                  </div>
+
+                  <div class="block2">
+                     <video poster="assets/images/lorem-block2-video-img.png"></video>
+                        <img class="block2-play-btn" src="assets/images/lorem-block2-play-btn.png" width="61"
+                           height="61"
+                           alt="block2-play-btn">
+                  </div>
+
+                  <div class="block3">
+                     <object data="assets/icons/twitter-logo.svg" type="image/svg+xml" width="164"
+                        height="134"></object>
+                     <object data="assets/icons/lorem-plus-icon.svg" type="image/svg+xml" width="12"
+                        height="12"></object>
+                     <div class="number">22</div>
+                  </div>
+
+                  <div class="block4"><time datetime="4-25"><span>25</span> <span>APRIL</span></time> </div>
+               </div>
+               <div class="slider_block">
+                  <input type="range" min="1" max="100" value="36" class="slider" id="myRange">
+               </div>
+            </div>
+            <!-- /inner_wrapper -->
+         </section>
+         <!-- /lorem -->
+
+
 
       </main>
    </div>
