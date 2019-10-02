@@ -1,6 +1,6 @@
 .wrapper {
    height: 100vh;
-   width: 100vw;
+   width: 100wv;
    margin: 0 auto;
 }
 
@@ -14,6 +14,7 @@ header {
    background-image: url('../assets/images/header-bg.png');
    background-size:  100% 566px;
    background-repeat: no-repeat;
+   
 }
 
 .header_banner>.header_title,
@@ -116,7 +117,7 @@ h1 {
 .nav-buttons {
    position: absolute;
    display: flex;
-   width: 100vw;
+   width: 100%;
    margin-top: 187px;
    justify-content: space-between;
    align-items: center;
@@ -295,12 +296,12 @@ h1 {
    filter: drop-shadow(0 6px 1px rgba(0, 0, 0, 0.5));
 }
 
-/* main >icons-area section */
-.lorem {
-   background-image: url("../assets/images/lorem-bg.png");
+/* main >media-section */
+.media-section {
+   background-image: url("../assets/images/media-section-bg.png");
    height: 509px;
 }
-.lorem .title {
+.media-section .title {
    display: flex;
    align-items: center;
    height: 110px;
@@ -321,7 +322,6 @@ h1 {
    height: 232px;
    width: 340px;
    background: #ec9e03;
-   
 }
 
 .block1>p {
@@ -461,3 +461,83 @@ h1 {
    background-color: #ec9e03;
    cursor: pointer;
 }
+
+/* main >lorem-section */
+.lorem-section {
+   background-image: url("../assets/images/lorem-section-bg.png");
+   height: 499px;
+}
+.lorem-section .title {
+   height: 84px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   font-size: 43px;
+   letter-spacing: 0.43px;
+   color: #f5c506;
+   font-family: "PT Sans Regular";
+   font-weight: 400;
+}
+
+.content {
+   display: flex;
+   height: 316px;
+}
+
+.content>.images {
+   width: 597px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-evenly;
+   margin-bottom: 49px;
+}
+
+.content img:nth-child(1) {
+   margin-bottom: -41px;
+   margin-left: -10px;
+}
+
+.content img:nth-child(2) {
+   margin-right: -6px;
+}
+
+.content img:nth-child(3) {
+   margin-right: 11px;
+}
+
+.content img:nth-child(4) {
+   position: absolute;
+   margin-top: -142px;
+   margin-left: -242px;
+}
+
+.content>.lorem-list {
+   width: 423px;
+   display: flex;
+   font-size: 22px;
+   letter-spacing: 0.22px;
+   color: #a9a9a7;
+   font-family: "Open Sans";
+   font-weight: 400;
+}
+
+.content>.lorem-list>ul {
+   margin-top: 74px;
+   margin-left: 41px;
+}
+
+.content>.lorem-list li {
+   margin-top: 26px;
+   padding-left: 33px;
+}
+
+span.dot {
+   display: inline-block;
+   width: 14px;
+   height: 14px;
+   margin-left: -32px;
+   margin-right: 18px;
+   border-radius: 7px;
+   background-color: #f5c506;
+}
+
