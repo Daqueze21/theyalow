@@ -41,7 +41,7 @@ header {
    margin-bottom: -3px;
 }
 
-h1 {
+#logo h1 {
    font-family: "Lucida Sans Italic";
    font-size: 41px;
    letter-spacing: 0.41px;
@@ -328,11 +328,11 @@ h1 {
    padding-top: 16px;
    padding-left: 29px;
    padding-right: 25px;
+   font-family: "Segoe WP";
    font-size: 29px;
    letter-spacing: 0.29px;
-   line-height: 38px;
+   line-height: 1.31;
    color: #ffffff;
-   font-family: "Segoe WP";
    font-weight: 300;
 }
 
@@ -529,6 +529,7 @@ h1 {
 .content>.lorem-list li {
    margin-top: 26px;
    padding-left: 33px;
+
 }
 
 span.dot {
@@ -541,3 +542,36 @@ span.dot {
    background-color: #f5c506;
 }
 
+/* footer */
+footer {
+   background-image: url("../assets/images/Layer31.png");
+   background-size: cover;
+   height: 76px;
+   background: #4c4c4c;
+   box-shadow: -0.1px -3px 5px 0 rgba(0, 0, 0, 0.75);
+}
+.footer-logo {
+   display: flex;
+   align-items: center;
+   padding: 7px 0;
+}
+
+.footer-logo object[data$="bottom.svg"] {
+   padding-left: 2px;
+   padding-top: 2px;
+   position: absolute;
+}
+
+.footer-logo object[data$="top.svg"] {
+   margin-bottom: -3px;
+}
+
+.footer-logo>h1 {
+   font-family: "Lucida Sans Italic";
+   font-size: 29px;
+   letter-spacing: 0.29px;
+   text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.42);
+   text-align: center;
+   color: #ffffff;
+   margin-left: 9px;
+}
