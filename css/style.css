@@ -14,13 +14,12 @@ header {
    background-image: url('../assets/images/header-bg.png');
    background-size:  100% 566px;
    background-repeat: no-repeat;
-   
 }
 
 .header_banner>.header_title,
-#navbar {
-   display: flex;
-   align-items: flex-end;
+.list {
+   display: flex;  
+   align-items: center;
 }
 
 .header_banner {
@@ -41,15 +40,15 @@ header {
    margin-bottom: -3px;
 }
 
-#logo h1 {
+.header_title h1 {
    font-family: "Lucida Sans Italic";
    font-size: 41px;
    letter-spacing: 0.41px;
    text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.42);
    text-align: center;
    color: #ffffff;
-   margin-bottom: 17px;
-   margin-left: 4px;
+   margin-left: 5px;
+   margin-top: 8px;
 }
 
 .list {
@@ -136,24 +135,20 @@ header {
 
 .banner {
    display: flex;
-   align-content: stretch;
+   justify-content: center;
 }
 
 .banner .video {
    position: relative;
-   flex-grow: 1;
-}
-
-.banner video {
    max-width: 549px;
+   margin-top: 54px;
    margin-left: 10px;
-   margin-top: 37px;
 }
 
 .banner label {
+   width: 45%;
    display: flex;
    flex-direction: column;
-   flex-grow: 1;
 }
 
 .banner label h2 {
@@ -165,28 +160,26 @@ header {
 }
 
 .banner label h2:first-child {
-   
    color: #f5c506;
    margin-top: 138px;
-   margin-left: -13px;
+   margin-left: 13px;
 }
 
 .banner label h2:last-child {
    color: #fff;
    margin-top: 12px;
-   margin-left: 2px;
+   margin-left: 30px;
 }
 
 .video-controls .play-btn-big {
    position: absolute;
-   top: 186px;
-   left: 254px;
+   top: 131px;
+   left: 240px;
 }
 
 .video-controls .video-footer {
    position: absolute;
    bottom: 23px;
-   left: 10px;
    display: flex;
    align-items: center;
    justify-content: left;
@@ -574,4 +567,110 @@ footer {
    text-align: center;
    color: #ffffff;
    margin-left: 9px;
+}
+
+@media (max-width: 987px) {
+   /* header */
+   header {
+      background: #5c5c5c;
+   }
+
+   .header_banner {
+      height: 62px;
+      align-items: center;
+   }
+
+   #logo {
+      margin-left: 12px;
+   }
+   #logo object[data$="bottom.svg"] {
+      width: 38px;
+      height: 38px;
+      padding-left: 2px;
+      padding-top: 2px;
+      position: absolute;
+   }
+
+   #logo object[data$="top.svg"] {
+      width: 40px;
+      height: 39px;
+      margin-bottom: -3px;
+   }
+
+   .header_title h1 {
+      font-family: "Lucida Sans Italic";
+      font-size: 19.5px;
+      letter-spacing: 0.2px;
+      text-shadow: 1px 1.7px 0 rgba(0, 0, 0, 0.42);
+      text-align: center;
+      margin-left: 8px;
+   }
+
+   .list {
+      box-shadow: none;
+   }
+
+   .list-item {
+      height: 62px;
+   }
+
+   .list-item a {
+     font-size: 19px;
+     letter-spacing: 0.19px;
+   }
+   
+   /* main */
+   /* main >video-banner  section*/
+
+   .nav-buttons {
+      display: none;
+   }
+   
+   .main-video-banner {
+      height: 327px;
+      margin-top: 0;
+      margin-left: 0;
+   }
+  .banner {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+   }
+   
+   .banner .video{
+      height: 325px;
+   
+      margin-top: 0px;
+      margin-left: 0px;
+   }
+   .video-controls .play-btn-big {
+      top: 130px;
+      left: 250px;
+   }
+   
+   .video-controls .video-footer {
+      bottom: 19px;
+   }
+
+   .video-footer .play-btn-small {
+      margin-left: 29px;
+   }
+
+   .video-footer .btn-sound {
+      margin-left: 31px;
+   }
+
+
+   .banner label {
+      display: none;
+   }
+   /* main >icons-area section*/
+   
+   /* main >media-section */
+   .slider_block {
+      display: none;
+   }
+   /* main >lorem-section */
+
+   /* footer */
 }
