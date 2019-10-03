@@ -1,0 +1,183 @@
+/*  Asap-font */
+@font-face {
+   font-family: 'Asap Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap Regular'),
+      url('../assets/fonts/asap/Asap-Regular.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Asap Italic';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap Italic'),
+      url('../assets/fonts/asap/Asap-Italic.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Asap Medium';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap Medium'),
+      url('../assets/fonts/asap/Asap-Medium.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Asap Medium Italic';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap Medium Italic'), url('../assets/fonts/asap/Asap-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Asap SemiBold';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap SemiBold'), url('../assets/fonts/asap/Asap-SemiBold.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Asap SemiBold Italic';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap SemiBold Italic'), url('../assets/fonts/asap/Asap-SemiBoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Asap Bold';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap Bold'), url('../assets/fonts/asap/Asap-Bold.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Asap Bold Italic';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Asap Bold Italic'), url('../assets/fonts/asap/Asap-BoldItalic.woff') format('woff');
+}
+
+/*  lucida-sans font */
+@font-face {
+   font-family: 'Lucida Sans Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Regular'),
+      url('../assets/fonts/lucida-sans-cufonfonts-webfont/LSANS.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Italic';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Italic'),
+      url('../assets/fonts/lucida-sans-cufonfonts-webfont/LSANSI.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Demibold Roman';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Demibold Roman'),
+      url('../assets/fonts/lucida-sans/LSANSD.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Demibold Italic';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Demibold Italic'),
+      url('../assets/fonts/lucida-sans/LSANSDI.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Typewriter Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Typewriter Regular'),
+      url('../assets/fonts/lucida-sans/LTYPE.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Unicode Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Unicode Regular'),
+      url('../assets/fonts/lucida-sans/l_10646.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Typewriter Oblique';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Typewriter Oblique'),
+      url('../assets/fonts/lucida-sans/LTYPEO.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Typewriter Bold';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Typewriter Bold'),
+      url('../assets/fonts/lucida-sans/LTYPEB.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'Lucida Sans Typewriter Bold Oblique';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Lucida Sans Typewriter Bold Oblique'),
+      url('../assets/fonts/lucida-sans/LTYPEBO.woff') format('woff');
+}
+
+/*  OpenSans */
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Open Sans'),
+      url('../assets/fonts/OpenSans/OpenSans-Regular.ttf') format('woff');
+}
+
+/*  pt-sans */
+@font-face {
+   font-family: 'PT Sans Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('PT Sans Regular'),
+      url('../assets/fonts/pt-sans/PTS55F.ttf') format('woff');
+}
+
+/*  seagoi-ui */
+@font-face {
+   font-family: 'Segoe UI Light';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Segoe UI Light'),
+      url('../assets/fonts/seagoi-ui/seagoi-ui-light.ttf') format('woff');
+}
+
+/*  segoe-wp */
+@font-face {
+   font-family: 'Segoe WP';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Segoe WP'),
+      url('../assets/fonts/segoe-wp/SegoeWP.woff') format('woff');
+}
